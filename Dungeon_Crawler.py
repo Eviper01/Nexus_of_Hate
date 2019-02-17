@@ -203,7 +203,6 @@ def show_Skills(player_id):
     else:
         print("unable to equip")
 
-#MEMORY DATA
 
 #FRONTEND
 
@@ -332,16 +331,14 @@ debug_attack0 = {
 
 #Init
 enemy_list = []
-# enemy_list.append(new_enemy((25,25),0))
-# enemy_list.append(new_enemy((12,9),1))
-# enemy_list.append(new_enemy((19,55),2))
 player = new_player(1,1)
+Lost = False
+Combat = False
+# debug init
 player["Weapon"] = debug_weapon0
 player["inv"].append(debug_weapon1)
 player["skills"].append(debug_attack0)
 print(player)
-Lost = False
-Combat = False
 
 # Game loop
 while Lost == False:
