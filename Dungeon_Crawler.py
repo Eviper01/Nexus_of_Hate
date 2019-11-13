@@ -248,6 +248,7 @@ def level_player(player_id):
     player_id["CurrentHp"] = player_id["MaxHp"]
     player_id["CurrentSp"] = player_id["MaxSp"]
     player_id["CurrentMp"] = player_id["MaxMp"]
+    player_id["SX"] = player_id["SX"] + 1
 
 
 
